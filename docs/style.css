@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Andisregular";
+    src: url('font/Andis-Regular.otf');
+}
+
+@font-face{
+    font-family: "Andisbold";
+    src: url('font/Andis-Bold.otf');
+}
+
+h1 {
+    font-size: 4em;
+    font-family: Andisbold;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /*align-items: self-start;*/
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+section{
+    color: white;
+    text-align: justify;
+    font-family: Andisregular;
+}
+section:nth-child(2n+2) {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+h2 {
+    font-family: Andisbold;
+    width: 400px;
+    margin-left: 70px;
+    margin-top: -70px;
+    margin-bottom: -30px;
+}
+
+h3 {
+    font-family: Andisregular;
+}
+
+h4 {
+    font-family: Andisregular;
+}
+
+section {
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.21);
+    margin: 50px;
+}
+
+.section__1 {
+    background-color: #e74c3c;
+}
+
+.section__2 {
+    background-color: #2ecc71;
+}
+
+.section__3 {
+    background-color: #3498db;
+}
+
+.section__4 {
+    background-color: #f1c40f;
+}
+
+.section__5 {
+    background-color: #9b59b6;
+}
+
+.section__6 {
+    background-color: #1abc9c;
+}
+
+section ul, section p{
+    margin: 40px;
+}
+
+section ul {
+    margin-left: 55px;
+    list-style-type: upper-roman;
+}
+
+section ul li {
+    margin-bottom: 7px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -40px;
+    left: -40px;
+    border-radius: 60px;
+    background-color: white;
+    border: 8px solid white;
+}
